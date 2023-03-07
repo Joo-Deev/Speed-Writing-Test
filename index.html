@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Speed Test</title>
+</head>
+<body>
+    <header>
+        Speed Test
+    </header>
+    <div class="Test">
+        <div class="container">
+            <select>
+                <option value="Easy">Easy</option>
+                <option value="Normal">Normal</option>
+                <option value="Hard">Hard</option>
+            </select>
+            <div class="Start">
+                <h1>Start Play</h1>
+            </div>
+            <div class="word"></div>
+            <input type="text" disabled>
+            <div class="parent-time">Time Left : <span class="time">StartFirst</span></div>
+            <div class="up-words">
+                <div style="font-size: 20px;color: white;padding: 10px;">Words Left : <span class="words-left">0</span></div>
+                <div class="upcoming-words"></div>
+                <div class="score-bg">Score : <span class="score">0</span></div>
+            </div>
+            <div class="result" style="text-align: center; font-size: 30px;"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
